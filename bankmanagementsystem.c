@@ -146,7 +146,7 @@ void transfer_money(){
     scanf("%d", &ac_receiver);
 
     if(amt<trans_amt){
-        printf("You don't have sufficient balance\ ");
+        printf("You don't have sufficient balance\n");
     }
     else{
         amt = amt - trans_amt;
